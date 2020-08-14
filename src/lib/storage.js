@@ -1,6 +1,7 @@
 import ScratchStorage from 'scratch-storage';
 
-import defaultProject from './default-project';
+// import defaultProject from './default-project';
+import {defaultProject} from 'scratch-dridrin-blocks/src/gui';
 
 /**
  * Wrapper for ScratchStorage which adds default web sources.

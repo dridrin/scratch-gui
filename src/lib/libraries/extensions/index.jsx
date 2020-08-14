@@ -46,7 +46,10 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import {extensionInfo} from 'scratch-dridrin-blocks/src/gui';
+
 export default [
+    extensionInfo,
     {
         name: (
             <FormattedMessage
